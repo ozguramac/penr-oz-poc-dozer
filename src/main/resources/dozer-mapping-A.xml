@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+	<mapping map-id="destA_ss2sd">
+		<class-a>com.oz.dozer.source.SomeSrcBean</class-a>
+		<class-b>com.oz.dozer.destination.SomeDestinationBean</class-b>
+		<field>
+			<a>someSrcStr</a>
+			<b>someDestinationStr</b>
+		</field>
+	</mapping>
+	<mapping map-id="destA_as2sd">
+		<class-a>com.oz.dozer.source.AnotherSrcBean</class-a>
+		<class-b>com.oz.dozer.destination.SomeDestinationBean</class-b>
+		<field>
+			<a>anotherSrcDbl</a>
+			<b>someDestinationDbl</b>
+		</field>
+	</mapping>
+</mappings>
